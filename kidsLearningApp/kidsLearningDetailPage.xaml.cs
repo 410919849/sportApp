@@ -11,28 +11,26 @@ public partial class kidsLearningDetailPage : ContentPage
 
 	private void DisplayLearningResult(string categoryName)
 	{
-		LearningData learningdata = new LearningData();
+		news learningdata = new news();
 		switch (categoryName) {             
-		            case "Letters":
-		                CvKids.ItemsSource = learningdata.Letters;
+		            case "胸部訓練":
+		                CvKids.ItemsSource = learningdata.胸部訓練;
 		                break;
-		            case "Numbers":
-		                CvKids.ItemsSource = learningdata.Numbers;
+		            case "手臂訓練":
+		                CvKids.ItemsSource = learningdata.手臂訓練;
 		                break;
-		            case "Shapes":
-		                CvKids.ItemsSource = learningdata.Shapes;
+		            case "腿部訓練":
+		                CvKids.ItemsSource = learningdata.腿部訓練;
 		                break;
-		            case "Colors":
-		                CvKids.ItemsSource = learningdata.Colors;
+		            case "背部訓練":
+		                CvKids.ItemsSource = learningdata.背部訓練;
 		                break;
-		            default:
-		                break;
-		  case "Fruits":
-				CvKids.ItemsSource = learningdata.Fruits;
-				break;
-case "Animals":
-				 CvKids.ItemsSource = learningdata.Colors;
-				 break;
+					case "肩膀訓練":
+						CvKids.ItemsSource = learningdata.肩膀訓練;
+						break;
+					case "其他運動新聞":
+						CvKids.ItemsSource = learningdata.其他運動新聞;
+						break;
 		        }
 	}
 
