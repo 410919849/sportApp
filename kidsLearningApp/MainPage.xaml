@@ -24,7 +24,7 @@
                 <ImageButton Source="arm_c.jpg"
                              Aspect="AspectFit"
                              HeightRequest="120"
-                             CommandParameter="Numbers"
+                             CommandParameter="手臂訓練"
                              Clicked="ImageButton_Clicked"/>
                 <Label Text="手臂訓練" HorizontalOptions="Center"/>
             </VerticalStackLayout>
@@ -38,7 +38,7 @@
                 <ImageButton Source="chest_c.jpg"
                      Aspect="AspectFit"
                      HeightRequest="120"
-                     CommandParameter="Letters"
+                     CommandParameter="胸部訓練"
                      Clicked="ImageButton_Clicked"/>
                 <Label Text="胸部訓練" HorizontalOptions="Center"/>
             </VerticalStackLayout>
@@ -52,7 +52,7 @@
                 <ImageButton Source="leg_c.jpg"
                             Aspect="AspectFit"
                             HeightRequest="120"
-                            CommandParameter="Shapes"
+                            CommandParameter="腿部訓練"
                             Clicked="ImageButton_Clicked"/>
                 <Label Text="腿部訓練" HorizontalOptions="Center"/>
             </VerticalStackLayout>
@@ -66,7 +66,7 @@
                 <ImageButton Source="back_c.jpg"
                             Aspect="AspectFit"
                             HeightRequest="120"
-                            CommandParameter="Colors"
+                            CommandParameter="背部訓練"
                             Clicked="ImageButton_Clicked"/>
                 <Label Text="背部訓練" HorizontalOptions="Center"/>
             </VerticalStackLayout>
@@ -79,7 +79,7 @@
                 <ImageButton Source="shoulder_c.jpg"
                      Aspect="AspectFit"
                      HeightRequest="120"
-                     CommandParameter="Fruits"
+                     CommandParameter="肩膀訓練"
                      Clicked="ImageButton_Clicked"/>
                 <Label Text="肩膀訓練" HorizontalOptions="Center"/>
             </VerticalStackLayout>
@@ -92,7 +92,7 @@
                 <ImageButton Source="sport.jpg"
                      Aspect="AspectFit"
                      HeightRequest="120"
-                     CommandParameter="Animals"
+                     CommandParameter="其他運動新聞"
                     Clicked="ImageButton_Clicked"/>
                 <Label Text="其他運動新聞" HorizontalOptions="Center"/>
             </VerticalStackLayout>
